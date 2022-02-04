@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XOUpss8sbi/XWeujZERVfID8Nr5/RHU1YBdKLsaJ8W9ozCl7q9dT238MDZ+UwP0MyMPy34tjU3fP2pStjFaT+Q==",
+  "dgSpecHash": "oe1OjHNbdk2r7vnABh/pmGnCVkQPqRi/YKt/ugir99+aXiAGKWLRlZq1uqjQR0j8ENe9ePl9jJkav3fX21+CTg==",
   "success": true,
-  "projectFilePath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Presentation\\CleanArch.Presentation.csproj",
+  "projectFilePath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Presentation\\CleanArch.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karim\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Karim\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

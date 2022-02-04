@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5VDb/LbbmFfXq+5aWl+A7YvWE3Ks05PuKxthvy72FjDRIwwySPXz5NEhKmWYiigA/rXwOa3F3r07enLlHTzeQ==",
+  "dgSpecHash": "0JKzmIUyKpqAZgb+S4AtvVL3DDzgVhY77kq/O8qgw/NUJpRKbRfR8AWz5aMTCrsxJh55yWrDpfmnW1OlnK6vAQ==",
   "success": true,
-  "projectFilePath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\CleanArch.Domain.csproj",
+  "projectFilePath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\CleanArch.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -6053,11 +6053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
+      "projectUniqueName": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
       "projectName": "CleanArch.Infrastructure",
-      "projectPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
+      "projectPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Karim\\.nuget\\packages\\",
-      "outputPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Infrastructure\\obj\\",
+      "outputPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Karim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6073,8 +6073,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\CleanArch.Application.csproj": {
-              "projectPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\CleanArch.Application.csproj"
+            "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\CleanArch.Application.csproj": {
+              "projectPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\CleanArch.Application.csproj"
             }
           }
         }

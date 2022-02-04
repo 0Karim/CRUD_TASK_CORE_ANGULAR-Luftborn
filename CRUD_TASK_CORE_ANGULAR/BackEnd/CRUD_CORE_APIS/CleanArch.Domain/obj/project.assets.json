@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\CleanArch.Domain.csproj",
+      "projectUniqueName": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\CleanArch.Domain.csproj",
       "projectName": "CleanArch.Domain",
-      "projectPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\CleanArch.Domain.csproj",
+      "projectPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\CleanArch.Domain.csproj",
       "packagesPath": "C:\\Users\\Karim\\.nuget\\packages\\",
-      "outputPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-main\\CRUD_TASK_CORE_ANGULAR-main\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\obj\\",
+      "outputPath": "E:\\Me\\CRUD_TASK_CORE_ANGULAR-Luftborn\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Karim\\AppData\\Roaming\\NuGet\\NuGet.Config",
