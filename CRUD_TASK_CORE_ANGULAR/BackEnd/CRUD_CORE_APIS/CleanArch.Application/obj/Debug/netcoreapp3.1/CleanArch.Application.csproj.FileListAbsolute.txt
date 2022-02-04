@@ -1,0 +1,13 @@
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Application.deps.json
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Application.dll
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Application.pdb
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Domain.dll
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.csproj.AssemblyReference.cache
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.AssemblyInfoInputs.cache
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.AssemblyInfo.cs
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.csproj.CoreCompileInputs.cache
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.csproj.CopyComplete
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.dll
+E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.pdb
