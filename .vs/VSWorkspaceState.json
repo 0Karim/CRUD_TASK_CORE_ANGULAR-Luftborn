@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CRUD_TASK_CORE_ANGULAR",
+    "\\CRUD_TASK_CORE_ANGULAR\\BackEnd",
+    "\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS",
+    "\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application",
+    "\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\Users",
+    "\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\Users\\Queries",
+    "\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\Users\\Queries\\GetUserById",
+    "\\CRUD_TASK_CORE_ANGULAR\\FronEnd",
+    "\\CRUD_TASK_CORE_ANGULAR\\FronEnd\\CRUD_Angular"
+  ],
+  "SelectedNode": "\\CRUD_TASK_CORE_ANGULAR\\BackEnd\\CRUD_CORE_APIS\\CleanArch.Application\\Users\\Queries\\GetUserById\\GetUserByIdQuery.cs",
+  "PreviewInSolutionExplorer": false
+}

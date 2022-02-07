@@ -4,11 +4,12 @@ import { AbstractControlOptions, FormBuilder, FormGroup, Validators } from '@ang
 import { first } from 'rxjs/operators';
 
 import { UserService, AlertService } from '@app/_services';
+import { User } from '@app/_models';
 
 @Component({ templateUrl: 'add-edit.component.html' })
 export class AddEditComponent implements OnInit {
     form!: FormGroup;
-    id!: string;
+    id!: number;
     isAddMode!: boolean;
     loading = false;
     submitted = false;
@@ -26,19 +27,38 @@ export class AddEditComponent implements OnInit {
         this.isAddMode = !this.id;
         
         this.form = this.formBuilder.group({
-            firstName: ['', Validators.required],
-            middleName : ['' , Validators.required],
-            lastName: ['', Validators.required],
-            birthDate :['' , Validators.required],
-            mobileNumber : ['' , Validators.required ,],
-            email: ['', [Validators.required, Validators.email]],
-            addressId : ['' , Validators.required]
+            FirstName: ['', Validators.required],
+            MiddleName : ['' , Validators.required],
+            LastName: ['', Validators.required],
+            BirthDate :['' , Validators.required],
+            MobileNumber : ['' , Validators.required ,],
+            Email: ['', Validators.required],
+            BuildingNumber : ['' , Validators.required],
+            Street : ['' , Validators.required],
+            GovId : [],
+            CityId : []
         }); 
 
         if (!this.isAddMode) {
             this.userService.getById(this.id)
                 .pipe(first())
-                .subscribe(x => this.form.patchValue(x));
+                .subscribe(result => 
+                    {
+                        console.log(result);
+                        this.form.patchValue(
+                            {                                
+                                FirstName: result.firstName,
+                                MiddleName: result.middleName,
+                                LastName: result.lastName,
+                                BirthDate: result.birthDate,
+                                MobileNumber: result.mobileNumber,
+                                Email: result.email,
+                                BuildingNumber: result.buildingNumber,
+                                Street: result.street,
+                                GovId: result.govId,
+                                CityId: result.cityId,
+                            });
+                    });
         }
     }
 
@@ -52,7 +72,8 @@ export class AddEditComponent implements OnInit {
         this.alertService.clear();
 
         // stop here if form is invalid
-        if (this.form.invalid) {
+        if (this.form.invalid) 
+        {
             return;
         }
 
@@ -65,9 +86,12 @@ export class AddEditComponent implements OnInit {
     }
 
     private createUser() {
-        this.userService.create(this.form.value)
+        console.log(this.form.value);
+
+        this.userService.create(this.MapFormValuesToUserObj())
             .pipe(first())
-            .subscribe(() => {
+            .subscribe(result => {
+                console.log(result);
                 this.alertService.success('User added', { keepAfterRouteChange: true });
                 this.router.navigate(['../'], { relativeTo: this.route });
             })
@@ -75,12 +99,16 @@ export class AddEditComponent implements OnInit {
     }
 
     private updateUser() {
-        this.userService.update(this.id, this.form.value)
+        this.userService.update(this.id, this.MapFormValuesToUserObj())
             .pipe(first())
             .subscribe(() => {
                 this.alertService.success('User updated', { keepAfterRouteChange: true });
                 this.router.navigate(['../../'], { relativeTo: this.route });
             })
             .add(() => this.loading = false);
+    }
+
+    private MapFormValuesToUserObj() : User{
+        return new User(this.form.value);
     }
 }

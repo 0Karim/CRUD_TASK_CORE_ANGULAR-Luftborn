@@ -42,9 +42,9 @@ namespace CleanArch.Application.Users.Commands.CreateUser
             RuleFor(c => c.Email).NotEmpty().WithMessage("Email required")
                 .EmailAddress().WithMessage("A valid email is required");
 
-            RuleFor(c => c.GovId).NotNull().WithMessage("Governrate required");
+            //RuleFor(c => c.GovId).NotNull().WithMessage("Governrate required");
 
-            RuleFor(c => c.CityId).NotNull().WithMessage("City required");
+            //RuleFor(c => c.CityId).NotNull().WithMessage("City required");
 
             RuleFor(c => c.BuildingNumber).NotNull().WithMessage("Building Number required");
 

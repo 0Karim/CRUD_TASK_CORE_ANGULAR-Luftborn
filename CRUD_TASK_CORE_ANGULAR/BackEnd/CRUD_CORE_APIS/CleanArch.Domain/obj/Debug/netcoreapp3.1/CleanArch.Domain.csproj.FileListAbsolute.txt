@@ -8,3 +8,13 @@ E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_
 E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.CoreCompileInputs.cache
 E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.dll
 E:\Me\CRUD_TASK_CORE_ANGULAR-main\CRUD_TASK_CORE_ANGULAR-main\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\bin\Debug\netcoreapp3.1\CleanArch.Domain.deps.json
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\bin\Debug\netcoreapp3.1\CleanArch.Domain.dll
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\bin\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.AssemblyReference.cache
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.AssemblyInfoInputs.cache
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.AssemblyInfo.cs
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.CoreCompileInputs.cache
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.dll
+E:\Me\CRUD_TASK_CORE_ANGULAR-Luftborn\CRUD_TASK_CORE_ANGULAR\BackEnd\CRUD_CORE_APIS\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.pdb

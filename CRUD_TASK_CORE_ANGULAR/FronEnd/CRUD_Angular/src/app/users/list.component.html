@@ -8,14 +8,16 @@
             <th style="width: 30%">Mobile</th>
             <th style="width: 30%">BirthDate</th>
             <th style="width: 30%">Address</th>
-            <th style="width: 10%"></th>
+            <th style="width: 10%">Actions</th>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let user of users">
-            <td>{{user.title}} {{user.firstName}} {{user.lastName}}</td>
+            <td>{{user.firstName}} {{user.middleName}} {{user.lastName}}</td>
             <td>{{user.email}}</td>
-            <td>{{user.role}}</td>
+            <td>{{user.mobileNumber}}</td>
+            <td>{{user.birthDate}}</td>
+            <td>{{user.buildingNumber}} {{user.street}}</td>
             <td style="white-space: nowrap">
                 <a routerLink="edit/{{user.id}}" class="btn btn-sm btn-primary mr-1">Edit</a>
                 <button (click)="deleteUser(user.id)" class="btn btn-sm btn-danger btn-delete-user" [disabled]="user.isDeleting">

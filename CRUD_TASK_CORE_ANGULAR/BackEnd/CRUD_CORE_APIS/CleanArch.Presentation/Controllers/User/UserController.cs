@@ -23,26 +23,27 @@ namespace CleanArch.Presentation.Controllers.User
         }
 
         [HttpPut("UpdateUser")]
-        public async Task<ActionResult<int>> UpdateUser(UpdateUserCommand command)
+        public async Task<ActionResult<int>> UpdateUser([FromQuery]int Id , UpdateUserCommand command)
         {
+            command.UserId = Id;
             return await Mediator.Send(command);
         }
 
-        [HttpPost("GetAllUsers")]
-        public async Task<ActionResult<PaginatedList<UserDto>>> GetAllUsers(GetUsersWithPaginationQuery query)
+        [HttpGet("GetAllUsers")]
+        public async Task<ActionResult<PaginatedList<UserDto>>> GetAllUsers([FromQuery]GetUsersWithPaginationQuery query)
         {
             return await Mediator.Send(query);
         }
 
-        [HttpPost("GetUserById")]
-        public async Task<ActionResult<UserDto>> GetUserById(GetUserByIdQuery query)
+        [HttpGet("GetUserById")]
+        public async Task<ActionResult<UserDto>> GetUserById([FromQuery] GetUserByIdQuery query)
         {
             return await Mediator.Send(query);
         }
 
 
-        [HttpPost("DeleteUser")]
-        public async Task<ActionResult> DeleteUser(int Id)
+        [HttpDelete("DeleteUser")]
+        public async Task<ActionResult> DeleteUser([FromQuery] int Id)
         {
             await Mediator.Send(new DeleteUserCommand { UserId = Id });
 

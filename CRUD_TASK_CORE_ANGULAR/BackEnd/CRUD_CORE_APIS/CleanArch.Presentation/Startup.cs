@@ -34,7 +34,6 @@ namespace CleanArch.Presentation
             services.AddInfrastructure(Configuration);
 
             services.AddControllers();
-            //services.AddControllers(options => options.Filters.Add<ApplicationExceptionFilter>());
 
             services.AddSwaggerGen(options =>
             {
@@ -45,6 +44,8 @@ namespace CleanArch.Presentation
                     Description = "Sample api for create user",
                 });
             });
+
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +55,11 @@ namespace CleanArch.Presentation
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(builder => builder
+             .AllowAnyOrigin()
+             .AllowAnyMethod()
+             .AllowAnyHeader());
 
             app.UseHttpsRedirection();
 
